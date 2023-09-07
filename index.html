@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Primeiros passos em Html</title>
+</head>
+<body>
+    <h1>Introdução a HTML</h1>
+    <hr>
+    <h2 id = indice>Indice</h2>
+    <ul>
+        <li><a href="#Ferramentas">Ferramentas utilizadas</a></li>
+        <li><a href="#Estrutura">Estrutura Básica</a></li>
+        <li><a href="#tags">Sobre tags</a></li>
+        <li><a href="#atributos">Atributos das tags</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+
+    <h2 id = "Ferramentas">Ferramentas Utilizadas</h2>
+    <p><small><a href="#indice">Voltar</a></small></p>
+    <p>Para desenvolver em <abbr title="Hypertext Markup Lenguage">HTML</abbr>, precisa-se de uma interface de desenvolvimento, uma IDE, e para isso usamos o VS Code, uma interface famosa e simples para desenvolvimento, tendo inclusive o recurso para completar um codigo, por exemplo, ao digitar "li" e apertar enter, o VS Code faz a abertura e fechamento de tags</p>
+
+    <h2 id = "Estrutura">Estrutura Básica</h2>
+    <p><small><a href="#indice">Voltar</a></small></p>
+    <p>A estrutura básica de <abbr title="Hypertext Markup Lenguage">HTML</abbr> é composta por 2 elementos principais: 
+    <ul>
+        <li><strong>Head:</strong>Componente que funciona antes do site ser aberto, onde temos tags como a <u>Title</u>, que é onde se coloca o titulo da página, que aparece na guia do navegador.</li>
+        <li><strong>Body:</strong>É onde o corpo do site é escrito, é onde voce digita os textos da página em si.</li>
+    </ul>
+    </p>
+    <p>Essas duas tags acima estão dentro da tag principal do <abbr title="Hypertext Markup Lenguage">HTML</abbr>, que possui o mesmo nome, HTML, essa tag é onde <mark>todos</mark> os itens do seu site tem que estar.</p>
+
+    <h2 id = tags>Sobre as Tags</h2>
+    <p><small><a href="#indice">Voltar</a></small></p>
+    <p>Algumas tags, como a tag <i>i</i> e a tag <strong>strong</strong> possuem abertura e fechamento, sendo a abertura: &lt;p&gt; e o fechamento sendo &lt;/p&gt;.</p>
+    <p>Porém temos tags que nao possuem fechamento, como as tags input e img</p>
+    <input type="text">
+
+    <h2 id = atributos>Atributos das tags</h2>
+    <p><small><a href="#indice">Voltar</a></small></p>
+    <p>Algumas tags precisam receber parametros, por exemplo, a tag de imagem (Img) precisa de dois atributos:
+        <ul>
+            <li>href = onde terá o caminho para a imagem.</li>
+            <li>alt = descrição automatica da imagem.</li>
+        </ul>
+    </p>
+    <p>E temos alguns parametros que não são essenciais, porém podem ajudar seu site, como para a tag a (link), você pode utilizar o parametro <u>target</u>, onde você diz a "direção" do link, se ele será aberto na mesma guia ou em outra.</p>
+
+    <h2 id = texto>Textos</h2>
+    <p><small><a href="#indice">Voltar</a></small></p>
+    <p>Já vimos várias tags que são usadas para auxiliar nosso texto, mas como escrevemos o texto?</p>
+    <p>Bom, podemos usar tags de titulo, como h1, a tag de titulo, e essa tag tem 6 niveis, ou seja, vai de h1 até h6, são 6 niveis de titulo.</p>
+    <blockquote>Já diria Neymar "quando dá, dá, quando não dá, não dá"</blockquote>
+    <p>Acima, nós vemos uma citação, cuja tag é "blockquote". além disso, temos tags como <sub>sub</sub> e a <sup>sup</sup></p>
+
+    <h2 id = listas>Listas Ordenadas e Não Ordenadas</h2>
+    <p><small><a href="#indice">Voltar</a></small></p>
+    <p>Em alguns textos, usamos listas nao ordenadas, são listas em tópicos
+        <ul>
+            <li>Assim, por exemplo</li>
+            <li>Essas listas são feitas com a abertura de tag "ul" (unordenated list)</li>
+            <li>E para cada tópico dessa lista, abrimos uma tag "li"</li>
+        </ul>
+    </p>
+    <p>Também podemos usar listas ordenadas, tópico 1, 2, 3 e assim por diante
+        <ol>
+            <li>Assim, por exemplo</li>
+            <li>Para abrir listas assim, usamos o mesmo estilo das listas não ordenadas</li>
+            <li>Porém, em vez de "ul", usamos "ol" (ordered list)</li>
+        </ol>
+    </p>
+
+    <h2 id = links>Links</h2>
+    <p><small><a href="#indice">Voltar</a></small></p>
+    <p>E para criar links em HTML, usamos a tag "a", uma tag que vem com o parametro <strong>"href"</strong>, onde você coloca o endereço do site ou página que você quer que seu cliente entre.</p>
+    <p>Aqui, por exemplo, temos <a href="https://www.linkedin.com/in/gustavo-da-silva-pires-53151a224/">meu linkedin</a>, no parametro "href" coloquei o link da minha pagina, e o texto que aparece para ser clicado está entre a abertura e o fechamento da tag "a".</p>
+</body>
+</html>
