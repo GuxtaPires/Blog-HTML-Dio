@@ -9,7 +9,7 @@ As tags que usei foram:
   
 ## Feedback
 
-Me mande sua opinião sobre este sistema neste meio:
+Me mande sua opinião sobre este site neste meio:
 
 - [Linkedin](https://www.linkedin.com/in/gustavodasilvapires/)
 
